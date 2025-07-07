@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Donation Invoice - Global Hope Foundation</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f1f5f9;
+      margin: 0;
+      padding: 40px;
+    }
+
+    .invoice-box {
+      max-width: 800px;
+      margin: auto;
+      background: #ffffff;
+      padding: 40px;
+      border-radius: 8px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+      border: 1px solid #d1d5db;
+    }
+
+    .logo {
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+      color: #1e293b;
+      margin-bottom: 30px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 28px;
+      color: #1e293b;
+      margin-bottom: 10px;
+    }
+
+    .header,
+    .section {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      color: #334155;
+    }
+
+    .section div {
+      width: 48%;
+      line-height: 1.5;
+    }
+
+    table.details-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 30px;
+      border-radius: 6px;
+      overflow: hidden;
+    }
+
+    .details-table th,
+    .details-table td {
+      padding: 14px 16px;
+      border: 1px solid #e2e8f0;
+      text-align: left;
+    }
+
+    .details-table th {
+      background-color: #f8fafc;
+      color: #0f172a;
+      font-weight: 600;
+    }
+
+    .account-number {
+      font-family: 'Courier New', Courier, monospace;
+      color: #0f172a;
+    }
+
+    .total {
+      text-align: right;
+      font-size: 20px;
+      font-weight: bold;
+      color: #1e40af;
+      margin-top: 30px;
+    }
+
+    .note {
+      margin-top: 30px;
+      font-size: 14px;
+      color: #475569;
+      line-height: 1.6;
+    }
+
+    .signature {
+      margin-top: 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 14px;
+      color: #475569;
+    }
+
+    .signature .line {
+      border-bottom: 1px solid #94a3b8;
+      width: 250px;
+      margin-right: 10px;
+    }
+
+    .signed {
+      font-weight: bold;
+      color: #1e293b;
+    }
+
+    .footer {
+      margin-top: 60px;
+      text-align: center;
+      font-size: 12px;
+      color: #94a3b8;
+    }
+  </style>
+</head>
+<body>
+  <div class="invoice-box">
+    <div class="logo">
+      Global Hope Foundation
+    </div>
+
+    <h1>Donation Invoice</h1>
+
+    <div class="header">
+      <div>
+        <strong>From:</strong><br />
+        John Doe<br />
+        100 Example Street<br />
+        Springfield, USA<br />
+        john.doe@example.com
+      </div>
+      <div>
+        <strong>To:</strong><br />
+        Global Hope Foundation<br />
+        55 Unity Plaza<br />
+        New York, NY 10001<br />
+        support@globalhope.org
+      </div>
+    </div>
+
+    <div class="section">
+      <div>
+        <strong>Invoice Number:</strong> GH-2025-007<br />
+        <strong>Invoice Date:</strong> July 7, 2025
+      </div>
+      <div>
+        <strong>Payment Method:</strong> Bank Transfer<br />
+        <strong>Due Date:</strong> Upon Receipt
+      </div>
+    </div>
+
+    <table class="details-table">
+      <tr>
+        <th>Description</th>
+        <th>Account Number</th>
+        <th>Amount (USD)</th>
+      </tr>
+      <tr>
+        <td>Charitable Donation to Global Hope Foundation</td>
+        <td class="account-number">1234-5678-9012</td>
+        <td>$1,500,000.00</td>
+      </tr>
+    </table>
+
+    <div class="total">
+      Total Due: $1,500,000.00
+    </div>
+
+    <div class="note">
+      Kindly transfer the donation amount to the account listed above. A formal receipt will be issued upon successful confirmation.<br />
+      We sincerely thank you for your generosity and support toward our mission of global humanitarian relief.
+    </div>
+
+    <div class="signature">
+      <div>
+        <div class="signed">Jane Smith</div>
+        <div>Authorized Signature</div>
+      </div>
+      <div>
+        <div class="signed">July 7, 2025</div>
+        <div>Date</div>
+      </div>
+    </div>
+
+    <div class="footer">
+      Global Hope Foundation • Registered Charity No. 987654321 • www.globalhope.org
+    </div>
+  </div>
+</body>
+</html>
